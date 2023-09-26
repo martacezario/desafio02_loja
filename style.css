@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*Estilização da header*/
+  header {
+    /* border: solid black; */
+    background-color: #004687;
+    height: 50px;
+    font-weight: bold;
+     /*altura*/
+    /* padding-left: 30px; */
+  }
+  
+  /* nav {
+    border: solid red; 
+     padding-left: 50px; 
+  }*/
+  
+  /* ul {
+    border: solid white; 
+    padding-left: 30px;
+  } */
+  
+  li {
+    display: inline-block;
+    /* border: solid black; */
+    margin-left: 90px;
+    margin-top: 10px;
+    color: white;
+    /* padding-top: 10px; */
+  }
+  
+  /*Estilização da main*/
+  
+  img {
+    width: 200px;
+    margin-right: 12px;
+  }
+
+  button {
+    color: rgb(66, 32, 0);
+    font-weight: bold;
+  }
+
+  h3, button, form{
+    margin-top: 20px;
+  }
+  
+  /*Estilização do footer*/
+  h2 {
+    font-size: 15px;
+  }
+
+  form {
+    margin-bottom: 100px;
+  }
+  
+  .loja {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .cadastro {
+    border: solid red;
+    background-color: #004687;
+  }
+  
+.corCadastro {
+  color: white;
+  font-weight: bold;
+}
+
+.corFormulario {
+  color: white;
+  font-weight: bold;
+}
